@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75C7B15329D390950056EACF /* CarDryverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C7B15229D390950056EACF /* CarDryverApp.swift */; };
+		75C7B15529D390950056EACF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C7B15429D390950056EACF /* ContentView.swift */; };
+		75C7B15729D3909A0056EACF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75C7B15629D3909A0056EACF /* Assets.xcassets */; };
+		75C7B15A29D3909A0056EACF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75C7B15929D3909A0056EACF /* Preview Assets.xcassets */; };
+		75C7B15C29D3909A0056EACF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C7B15B29D3909A0056EACF /* Persistence.swift */; };
+		75C7B15F29D3909A0056EACF /* CarDryver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75C7B15D29D3909A0056EACF /* CarDryver.xcdatamodeld */; };
+		75C7B16929D3909A0056EACF /* CarDryverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C7B16829D3909A0056EACF /* CarDryverTests.swift */; };
+		75C7B17329D3909B0056EACF /* CarDryverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C7B17229D3909B0056EACF /* CarDryverUITests.swift */; };
+		75C7B18029D392120056EACF /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C7B17F29D392120056EACF /* WelcomeScreenView.swift */; };
+		75C7B18329D392900056EACF /* SignInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C7B18229D392900056EACF /* SignInScreenView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75C7B16529D3909A0056EACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75C7B14729D390950056EACF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75C7B14E29D390950056EACF;
+			remoteInfo = CarDryver;
+		};
+		75C7B16F29D3909B0056EACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75C7B14729D390950056EACF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75C7B14E29D390950056EACF;
+			remoteInfo = CarDryver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75C7B14F29D390950056EACF /* CarDryver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarDryver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C7B15229D390950056EACF /* CarDryverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDryverApp.swift; sourceTree = "<group>"; };
+		75C7B15429D390950056EACF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		75C7B15629D3909A0056EACF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75C7B15929D3909A0056EACF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75C7B15B29D3909A0056EACF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		75C7B15E29D3909A0056EACF /* CarDryver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarDryver.xcdatamodel; sourceTree = "<group>"; };
+		75C7B16429D3909A0056EACF /* CarDryverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarDryverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C7B16829D3909A0056EACF /* CarDryverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDryverTests.swift; sourceTree = "<group>"; };
+		75C7B16E29D3909B0056EACF /* CarDryverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarDryverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C7B17229D3909B0056EACF /* CarDryverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDryverUITests.swift; sourceTree = "<group>"; };
+		75C7B17F29D392120056EACF /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
+		75C7B18229D392900056EACF /* SignInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75C7B14C29D390950056EACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C7B16129D3909A0056EACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C7B16B29D3909B0056EACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75C7B14629D390950056EACF = {
+			isa = PBXGroup;
+			children = (
+				75C7B15129D390950056EACF /* CarDryver */,
+				75C7B16729D3909A0056EACF /* CarDryverTests */,
+				75C7B17129D3909B0056EACF /* CarDryverUITests */,
+				75C7B15029D390950056EACF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75C7B15029D390950056EACF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75C7B14F29D390950056EACF /* CarDryver.app */,
+				75C7B16429D3909A0056EACF /* CarDryverTests.xctest */,
+				75C7B16E29D3909B0056EACF /* CarDryverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75C7B15129D390950056EACF /* CarDryver */ = {
+			isa = PBXGroup;
+			children = (
+				75C7B18129D392680056EACF /* Screens */,
+				75C7B15229D390950056EACF /* CarDryverApp.swift */,
+				75C7B15429D390950056EACF /* ContentView.swift */,
+				75C7B15629D3909A0056EACF /* Assets.xcassets */,
+				75C7B15B29D3909A0056EACF /* Persistence.swift */,
+				75C7B15D29D3909A0056EACF /* CarDryver.xcdatamodeld */,
+				75C7B15829D3909A0056EACF /* Preview Content */,
+			);
+			path = CarDryver;
+			sourceTree = "<group>";
+		};
+		75C7B15829D3909A0056EACF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				75C7B15929D3909A0056EACF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75C7B16729D3909A0056EACF /* CarDryverTests */ = {
+			isa = PBXGroup;
+			children = (
+				75C7B16829D3909A0056EACF /* CarDryverTests.swift */,
+			);
+			path = CarDryverTests;
+			sourceTree = "<group>";
+		};
+		75C7B17129D3909B0056EACF /* CarDryverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75C7B17229D3909B0056EACF /* CarDryverUITests.swift */,
+			);
+			path = CarDryverUITests;
+			sourceTree = "<group>";
+		};
+		75C7B18129D392680056EACF /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				75C7B17F29D392120056EACF /* WelcomeScreenView.swift */,
+				75C7B18229D392900056EACF /* SignInScreenView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75C7B14E29D390950056EACF /* CarDryver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75C7B17629D3909B0056EACF /* Build configuration list for PBXNativeTarget "CarDryver" */;
+			buildPhases = (
+				75C7B14B29D390950056EACF /* Sources */,
+				75C7B14C29D390950056EACF /* Frameworks */,
+				75C7B14D29D390950056EACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarDryver;
+			productName = CarDryver;
+			productReference = 75C7B14F29D390950056EACF /* CarDryver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75C7B16329D3909A0056EACF /* CarDryverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75C7B17929D3909B0056EACF /* Build configuration list for PBXNativeTarget "CarDryverTests" */;
+			buildPhases = (
+				75C7B16029D3909A0056EACF /* Sources */,
+				75C7B16129D3909A0056EACF /* Frameworks */,
+				75C7B16229D3909A0056EACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75C7B16629D3909A0056EACF /* PBXTargetDependency */,
+			);
+			name = CarDryverTests;
+			productName = CarDryverTests;
+			productReference = 75C7B16429D3909A0056EACF /* CarDryverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75C7B16D29D3909B0056EACF /* CarDryverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75C7B17C29D3909B0056EACF /* Build configuration list for PBXNativeTarget "CarDryverUITests" */;
+			buildPhases = (
+				75C7B16A29D3909B0056EACF /* Sources */,
+				75C7B16B29D3909B0056EACF /* Frameworks */,
+				75C7B16C29D3909B0056EACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75C7B17029D3909B0056EACF /* PBXTargetDependency */,
+			);
+			name = CarDryverUITests;
+			productName = CarDryverUITests;
+			productReference = 75C7B16E29D3909B0056EACF /* CarDryverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75C7B14729D390950056EACF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					75C7B14E29D390950056EACF = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					75C7B16329D3909A0056EACF = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 75C7B14E29D390950056EACF;
+					};
+					75C7B16D29D3909B0056EACF = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 75C7B14E29D390950056EACF;
+					};
+				};
+			};
+			buildConfigurationList = 75C7B14A29D390950056EACF /* Build configuration list for PBXProject "CarDryver" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75C7B14629D390950056EACF;
+			productRefGroup = 75C7B15029D390950056EACF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75C7B14E29D390950056EACF /* CarDryver */,
+				75C7B16329D3909A0056EACF /* CarDryverTests */,
+				75C7B16D29D3909B0056EACF /* CarDryverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75C7B14D29D390950056EACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C7B15A29D3909A0056EACF /* Preview Assets.xcassets in Resources */,
+				75C7B15729D3909A0056EACF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C7B16229D3909A0056EACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C7B16C29D3909B0056EACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75C7B14B29D390950056EACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C7B15F29D3909A0056EACF /* CarDryver.xcdatamodeld in Sources */,
+				75C7B18029D392120056EACF /* WelcomeScreenView.swift in Sources */,
+				75C7B15C29D3909A0056EACF /* Persistence.swift in Sources */,
+				75C7B15529D390950056EACF /* ContentView.swift in Sources */,
+				75C7B18329D392900056EACF /* SignInScreenView.swift in Sources */,
+				75C7B15329D390950056EACF /* CarDryverApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C7B16029D3909A0056EACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C7B16929D3909A0056EACF /* CarDryverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C7B16A29D3909B0056EACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C7B17329D3909B0056EACF /* CarDryverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75C7B16629D3909A0056EACF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75C7B14E29D390950056EACF /* CarDryver */;
+			targetProxy = 75C7B16529D3909A0056EACF /* PBXContainerItemProxy */;
+		};
+		75C7B17029D3909B0056EACF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75C7B14E29D390950056EACF /* CarDryver */;
+			targetProxy = 75C7B16F29D3909B0056EACF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		75C7B17429D3909B0056EACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75C7B17529D3909B0056EACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75C7B17729D3909B0056EACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CarDryver/Preview Content\"";
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Me2software.CarDryver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75C7B17829D3909B0056EACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CarDryver/Preview Content\"";
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Me2software.CarDryver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75C7B17A29D3909B0056EACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Me2software.CarDryverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarDryver.app/CarDryver";
+			};
+			name = Debug;
+		};
+		75C7B17B29D3909B0056EACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Me2software.CarDryverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarDryver.app/CarDryver";
+			};
+			name = Release;
+		};
+		75C7B17D29D3909B0056EACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Me2software.CarDryverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarDryver;
+			};
+			name = Debug;
+		};
+		75C7B17E29D3909B0056EACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Me2software.CarDryverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarDryver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75C7B14A29D390950056EACF /* Build configuration list for PBXProject "CarDryver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C7B17429D3909B0056EACF /* Debug */,
+				75C7B17529D3909B0056EACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75C7B17629D3909B0056EACF /* Build configuration list for PBXNativeTarget "CarDryver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C7B17729D3909B0056EACF /* Debug */,
+				75C7B17829D3909B0056EACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75C7B17929D3909B0056EACF /* Build configuration list for PBXNativeTarget "CarDryverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C7B17A29D3909B0056EACF /* Debug */,
+				75C7B17B29D3909B0056EACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75C7B17C29D3909B0056EACF /* Build configuration list for PBXNativeTarget "CarDryverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C7B17D29D3909B0056EACF /* Debug */,
+				75C7B17E29D3909B0056EACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		75C7B15D29D3909A0056EACF /* CarDryver.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				75C7B15E29D3909A0056EACF /* CarDryver.xcdatamodel */,
+			);
+			currentVersion = 75C7B15E29D3909A0056EACF /* CarDryver.xcdatamodel */;
+			path = CarDryver.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 75C7B14729D390950056EACF /* Project object */;
+}
