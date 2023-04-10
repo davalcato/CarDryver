@@ -6,11 +6,13 @@
 //
 
 import SwiftUI
+import Firebase
+import GoogleSignIn
 
 struct SignInScreenView: View {
     @State private var email: String = "" // by default it's empty
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
-    
+
     var body: some View {
         ZStack {
             Color("BgColor").edgesIgnoringSafeArea(.all)
@@ -20,7 +22,7 @@ struct SignInScreenView: View {
                 }
                 .padding(.horizontal)
                 Spacer()
-                
+
                 VStack {
                     NavigationLink(destination: WelcomeScreenView()) {
                         Text("Sign In")
@@ -28,16 +30,48 @@ struct SignInScreenView: View {
                             .fontWeight(.bold)
                     }
                     .padding(.bottom, 30)
-                    
-                    SocalLoginButton(image: Image(uiImage: #imageLiteral(resourceName: "apple")), text: Text("Sign in with Apple").foregroundColor(Color("PrimaryColor")))
+
+                    Button(action: {
+                        // Sign in with Apple button pressed
+                        print("Sign in with Apple button pressed")
+                    }) {
+                        HStack {
+                            Image(uiImage: #imageLiteral(resourceName: "apple"))
+                                .resizable()
+                                .frame(width: 20, height: 20)
+                            Text("Sign in with Apple")
+                                .foregroundColor(Color("PrimaryColor"))
+                        }
+                        .frame(maxWidth: .infinity)
+                        .padding()
+                        .background(Color.white)
+                        .cornerRadius(25)
                         .padding(.vertical)
-                    
-                    SocalLoginButton(image: Image(uiImage: #imageLiteral(resourceName: "google")), text: Text("Sign in with Google").foregroundColor(Color("PrimaryColor")))
+                    }
+                    .buttonStyle(BorderlessButtonStyle())
+
+                    Button(action: {
+                        // Sign in with Google button pressed
+                        print("Sign in with Google button pressed")
+                    }) {
+                        HStack {
+                            Image(uiImage: #imageLiteral(resourceName: "google"))
+                                .resizable()
+                                .frame(width: 20, height: 20)
+                            Text("Sign in with Google")
+                                .foregroundColor(Color("PrimaryColor"))
+                        }
+                        .frame(maxWidth: .infinity)
+                        .padding()
+                        .background(Color.white)
+                        .cornerRadius(25)
                         .padding(.vertical)
-                    
+                    }
+                    .buttonStyle(BorderlessButtonStyle())
+
                     Text("or get a link emailed to you")
                         .foregroundColor(Color.black.opacity(0.4))
-                    
+
                     TextField("Work email address", text: $email)
                         .font(.title3)
                         .padding()
@@ -46,11 +80,11 @@ struct SignInScreenView: View {
                         .cornerRadius(50.0)
                         .shadow(color: Color.black.opacity(0.18), radius: 60, x: 0.0, y: 16)
                         .padding(.vertical)
-                    
+
                     PrimaryButton(title: "Email me a signup link")
-                    
+
                 }
-                
+
                 Spacer()
                 Divider()
                 Spacer()
@@ -58,7 +92,7 @@ struct SignInScreenView: View {
                 Text("Read our Terms & Conditions.")
                     .foregroundColor(Color("PrimaryColor"))
                 Spacer()
-                
+
             }
             .padding()
         }

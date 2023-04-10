@@ -9,11 +9,15 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
+    
+    @EnvironmentObject var signupVM:
+    SignUpViewModel
    
     var body: some View {
         WelcomeScreenView()
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

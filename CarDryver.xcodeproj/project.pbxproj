@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2115F3A500C101D0F34E2B2F /* Pods_CarDryver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8849F96A14BD9A90C5ED9BE /* Pods_CarDryver.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		75009E4B29D4F5B3000B9111 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75009E4A29D4F5B3000B9111 /* GoogleService-Info.plist */; };
+		75009E4F29D4F792000B9111 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 75009E4E29D4F792000B9111 /* FirebaseAnalytics */; settings = {ATTRIBUTES = (Weak, ); }; };
+		75009E5129D4F792000B9111 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 75009E5029D4F792000B9111 /* FirebaseAppCheck */; settings = {ATTRIBUTES = (Weak, ); }; };
+		75009E5329D4F792000B9111 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 75009E5229D4F792000B9111 /* FirebaseAuth */; settings = {ATTRIBUTES = (Weak, ); }; };
+		75009E5529D4F792000B9111 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 75009E5429D4F792000B9111 /* FirebaseStorage */; settings = {ATTRIBUTES = (Weak, ); }; };
+		75A2FD6329DCD95600893477 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 75A2FD6229DCD95600893477 /* GoogleSignIn */; };
+		75A2FD6629DE0C8200893477 /* SignUpVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A2FD6529DE0C8200893477 /* SignUpVM.swift */; };
+		75A2FD6929DE0F8600893477 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A2FD6829DE0F8600893477 /* Application.swift */; };
 		75C7B15329D390950056EACF /* CarDryverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C7B15229D390950056EACF /* CarDryverApp.swift */; };
 		75C7B15529D390950056EACF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C7B15429D390950056EACF /* ContentView.swift */; };
 		75C7B15729D3909A0056EACF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75C7B15629D3909A0056EACF /* Assets.xcassets */; };
@@ -17,6 +26,8 @@
 		75C7B17329D3909B0056EACF /* CarDryverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C7B17229D3909B0056EACF /* CarDryverUITests.swift */; };
 		75C7B18029D392120056EACF /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C7B17F29D392120056EACF /* WelcomeScreenView.swift */; };
 		75C7B18329D392900056EACF /* SignInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C7B18229D392900056EACF /* SignInScreenView.swift */; };
+		C87BC121CBA6201FFB12BF4B /* Pods_CarDryverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8A386C32D8E9714F446609 /* Pods_CarDryverTests.framework */; };
+		E57D126EFA507D1BBBF3680D /* Pods_CarDryver_CarDryverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2785567AAADE91E83C2E7AAD /* Pods_CarDryver_CarDryverUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1837B68B32CDCC3D918D6088 /* Pods-CarDryverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarDryverTests.debug.xcconfig"; path = "Target Support Files/Pods-CarDryverTests/Pods-CarDryverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2785567AAADE91E83C2E7AAD /* Pods_CarDryver_CarDryverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarDryver_CarDryverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5576F2AA1BE07838190C65EB /* Pods-CarDryver-CarDryverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarDryver-CarDryverUITests.release.xcconfig"; path = "Target Support Files/Pods-CarDryver-CarDryverUITests/Pods-CarDryver-CarDryverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		75009E4A29D4F5B3000B9111 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		75009E4C29D4F600000B9111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		75A2FD6529DE0C8200893477 /* SignUpVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVM.swift; sourceTree = "<group>"; };
+		75A2FD6829DE0F8600893477 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		75C7B14F29D390950056EACF /* CarDryver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarDryver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75C7B15229D390950056EACF /* CarDryverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDryverApp.swift; sourceTree = "<group>"; };
 		75C7B15429D390950056EACF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +68,12 @@
 		75C7B17229D3909B0056EACF /* CarDryverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDryverUITests.swift; sourceTree = "<group>"; };
 		75C7B17F29D392120056EACF /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
 		75C7B18229D392900056EACF /* SignInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
+		B3ADD500E9DBE89A8416EE5A /* Pods-CarDryverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarDryverTests.release.xcconfig"; path = "Target Support Files/Pods-CarDryverTests/Pods-CarDryverTests.release.xcconfig"; sourceTree = "<group>"; };
+		B8849F96A14BD9A90C5ED9BE /* Pods_CarDryver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarDryver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBC4FFCDA15CDEA87CCE64B /* Pods-CarDryver-CarDryverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarDryver-CarDryverUITests.debug.xcconfig"; path = "Target Support Files/Pods-CarDryver-CarDryverUITests/Pods-CarDryver-CarDryverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF8A386C32D8E9714F446609 /* Pods_CarDryverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarDryverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12257A93BE9D619181F9CC7 /* Pods-CarDryver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarDryver.release.xcconfig"; path = "Target Support Files/Pods-CarDryver/Pods-CarDryver.release.xcconfig"; sourceTree = "<group>"; };
+		F9C700E749479E53ABA1CF1B /* Pods-CarDryver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarDryver.debug.xcconfig"; path = "Target Support Files/Pods-CarDryver/Pods-CarDryver.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +81,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75009E5129D4F792000B9111 /* FirebaseAppCheck in Frameworks */,
+				75009E5529D4F792000B9111 /* FirebaseStorage in Frameworks */,
+				75009E5329D4F792000B9111 /* FirebaseAuth in Frameworks */,
+				75009E4F29D4F792000B9111 /* FirebaseAnalytics in Frameworks */,
+				2115F3A500C101D0F34E2B2F /* Pods_CarDryver.framework in Frameworks */,
+				75A2FD6329DCD95600893477 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C87BC121CBA6201FFB12BF4B /* Pods_CarDryverTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,12 +102,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E57D126EFA507D1BBBF3680D /* Pods_CarDryver_CarDryverUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49E4B1D6BB83601E9B9AF7CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8849F96A14BD9A90C5ED9BE /* Pods_CarDryver.framework */,
+				2785567AAADE91E83C2E7AAD /* Pods_CarDryver_CarDryverUITests.framework */,
+				DF8A386C32D8E9714F446609 /* Pods_CarDryverTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75A2FD6429DE0C3B00893477 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				75A2FD6529DE0C8200893477 /* SignUpVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		75A2FD6729DE0F4700893477 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				75A2FD6829DE0F8600893477 /* Application.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		75C7B14629D390950056EACF = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +142,8 @@
 				75C7B16729D3909A0056EACF /* CarDryverTests */,
 				75C7B17129D3909B0056EACF /* CarDryverUITests */,
 				75C7B15029D390950056EACF /* Products */,
+				B8EA5C71299AB7748DA1B4A5 /* Pods */,
+				49E4B1D6BB83601E9B9AF7CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +160,10 @@
 		75C7B15129D390950056EACF /* CarDryver */ = {
 			isa = PBXGroup;
 			children = (
+				75A2FD6729DE0F4700893477 /* Utilities */,
+				75A2FD6429DE0C3B00893477 /* ViewModel */,
+				75009E4C29D4F600000B9111 /* Info.plist */,
+				75009E4A29D4F5B3000B9111 /* GoogleService-Info.plist */,
 				75C7B18129D392680056EACF /* Screens */,
 				75C7B15229D390950056EACF /* CarDryverApp.swift */,
 				75C7B15429D390950056EACF /* ContentView.swift */,
@@ -144,6 +208,19 @@
 			path = Screens;
 			sourceTree = "<group>";
 		};
+		B8EA5C71299AB7748DA1B4A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9C700E749479E53ABA1CF1B /* Pods-CarDryver.debug.xcconfig */,
+				F12257A93BE9D619181F9CC7 /* Pods-CarDryver.release.xcconfig */,
+				CEBC4FFCDA15CDEA87CCE64B /* Pods-CarDryver-CarDryverUITests.debug.xcconfig */,
+				5576F2AA1BE07838190C65EB /* Pods-CarDryver-CarDryverUITests.release.xcconfig */,
+				1837B68B32CDCC3D918D6088 /* Pods-CarDryverTests.debug.xcconfig */,
+				B3ADD500E9DBE89A8416EE5A /* Pods-CarDryverTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75C7B17629D3909B0056EACF /* Build configuration list for PBXNativeTarget "CarDryver" */;
 			buildPhases = (
+				52D6895A7EBF23BA820A5513 /* [CP] Check Pods Manifest.lock */,
 				75C7B14B29D390950056EACF /* Sources */,
 				75C7B14C29D390950056EACF /* Frameworks */,
 				75C7B14D29D390950056EACF /* Resources */,
@@ -160,6 +238,13 @@
 			dependencies = (
 			);
 			name = CarDryver;
+			packageProductDependencies = (
+				75009E4E29D4F792000B9111 /* FirebaseAnalytics */,
+				75009E5029D4F792000B9111 /* FirebaseAppCheck */,
+				75009E5229D4F792000B9111 /* FirebaseAuth */,
+				75009E5429D4F792000B9111 /* FirebaseStorage */,
+				75A2FD6229DCD95600893477 /* GoogleSignIn */,
+			);
 			productName = CarDryver;
 			productReference = 75C7B14F29D390950056EACF /* CarDryver.app */;
 			productType = "com.apple.product-type.application";
@@ -168,6 +253,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75C7B17929D3909B0056EACF /* Build configuration list for PBXNativeTarget "CarDryverTests" */;
 			buildPhases = (
+				68B8A799ACA799484C53557A /* [CP] Check Pods Manifest.lock */,
 				75C7B16029D3909A0056EACF /* Sources */,
 				75C7B16129D3909A0056EACF /* Frameworks */,
 				75C7B16229D3909A0056EACF /* Resources */,
@@ -186,6 +272,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75C7B17C29D3909B0056EACF /* Build configuration list for PBXNativeTarget "CarDryverUITests" */;
 			buildPhases = (
+				75D04083A178B722C5B4EEC8 /* [CP] Check Pods Manifest.lock */,
 				75C7B16A29D3909B0056EACF /* Sources */,
 				75C7B16B29D3909B0056EACF /* Frameworks */,
 				75C7B16C29D3909B0056EACF /* Resources */,
@@ -232,6 +319,10 @@
 				Base,
 			);
 			mainGroup = 75C7B14629D390950056EACF;
+			packageReferences = (
+				75009E4D29D4F792000B9111 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				75A2FD6129DCD95500893477 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = 75C7B15029D390950056EACF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -250,6 +341,7 @@
 			files = (
 				75C7B15A29D3909A0056EACF /* Preview Assets.xcassets in Resources */,
 				75C7B15729D3909A0056EACF /* Assets.xcassets in Resources */,
+				75009E4B29D4F5B3000B9111 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,11 +361,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52D6895A7EBF23BA820A5513 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarDryver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68B8A799ACA799484C53557A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarDryverTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75D04083A178B722C5B4EEC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarDryver-CarDryverUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		75C7B14B29D390950056EACF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75A2FD6929DE0F8600893477 /* Application.swift in Sources */,
+				75A2FD6629DE0C8200893477 /* SignUpVM.swift in Sources */,
 				75C7B15F29D3909A0056EACF /* CarDryver.xcdatamodeld in Sources */,
 				75C7B18029D392120056EACF /* WelcomeScreenView.swift in Sources */,
 				75C7B15C29D3909A0056EACF /* Persistence.swift in Sources */,
@@ -433,6 +596,7 @@
 		};
 		75C7B17729D3909B0056EACF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9C700E749479E53ABA1CF1B /* Pods-CarDryver.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,6 +606,10 @@
 				DEVELOPMENT_TEAM = QFQW29JWKY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarDryver/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = CarDryver;
+				INFOPLIST_KEY_CFBundleName = CarDryver;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -463,6 +631,7 @@
 		};
 		75C7B17829D3909B0056EACF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F12257A93BE9D619181F9CC7 /* Pods-CarDryver.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -472,6 +641,10 @@
 				DEVELOPMENT_TEAM = QFQW29JWKY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarDryver/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = CarDryver;
+				INFOPLIST_KEY_CFBundleName = CarDryver;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -493,6 +666,7 @@
 		};
 		75C7B17A29D3909B0056EACF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1837B68B32CDCC3D918D6088 /* Pods-CarDryverTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -518,6 +692,7 @@
 		};
 		75C7B17B29D3909B0056EACF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3ADD500E9DBE89A8416EE5A /* Pods-CarDryverTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -543,6 +718,7 @@
 		};
 		75C7B17D29D3909B0056EACF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEBC4FFCDA15CDEA87CCE64B /* Pods-CarDryver-CarDryverUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -566,6 +742,7 @@
 		};
 		75C7B17E29D3909B0056EACF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5576F2AA1BE07838190C65EB /* Pods-CarDryver-CarDryverUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -627,6 +804,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		75009E4D29D4F792000B9111 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		75A2FD6129DCD95500893477 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		75009E4E29D4F792000B9111 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75009E4D29D4F792000B9111 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		75009E5029D4F792000B9111 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75009E4D29D4F792000B9111 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		75009E5229D4F792000B9111 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75009E4D29D4F792000B9111 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		75009E5429D4F792000B9111 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75009E4D29D4F792000B9111 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		75A2FD6229DCD95600893477 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75A2FD6129DCD95500893477 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		75C7B15D29D3909A0056EACF /* CarDryver.xcdatamodeld */ = {
