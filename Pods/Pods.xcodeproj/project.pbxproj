@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F1E4882C5B738410A07D665AB707CDB /* Pods-CarDryver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCCFF09AF41BE898BE2D9FAB8AB6A668 /* Pods-CarDryver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F1E01E7936A3C230C5EF2426295DFD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3D6B1BED8DD71FD1FF3B65DA1D6D583B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4BA9504FA20377591DE69FD87F7B7B51 /* Pods-CarDryverTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8293DBC1130C3C8E38351099000D53D1 /* Pods-CarDryverTests-dummy.m */; };
+		4C85047B7CD27ADDB120034F17F6DEC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5FB23F0CDC79A71B253279CDFD0CEFAE /* Pods-CarDryver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED60A4FB6F82C5E321BC2D9515993C9A /* Pods-CarDryver-dummy.m */; };
+		70F35CDA12EF8C0CE2D894F1455A4083 /* Pods-CarDryver-CarDryverUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AB072AAFFD63E970B772E15F3BC2DD /* Pods-CarDryver-CarDryverUITests-dummy.m */; };
+		722FE21FF318835935D3959FF6504325 /* Pods-CarDryver-CarDryverUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4450543ED2EC78AB54F8C1F5BB02DE00 /* Pods-CarDryver-CarDryverUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8070D651797A1ED449912BDE64F8DDE /* Pods-CarDryverTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D7BAE9C213E2250BC103366065BEAB8 /* Pods-CarDryverTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		681AFAAE3AB7861580C5C34C0A7BAB8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 795B94B9362EBF9A495DEB456635EB73;
+			remoteInfo = "Pods-CarDryver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D5962C0C9A3A2451D006C68DEEA8520 /* Pods-CarDryver-CarDryverUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CarDryver-CarDryverUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B62D6E128E60C41B6C7EB6639348289 /* Pods-CarDryverTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarDryverTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		42984E89575A8DD9F4459FCE6CB54FB1 /* Pods-CarDryver-CarDryverUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarDryver-CarDryverUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4450543ED2EC78AB54F8C1F5BB02DE00 /* Pods-CarDryver-CarDryverUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CarDryver-CarDryverUITests-umbrella.h"; sourceTree = "<group>"; };
+		4A172A4AC00FB504E4D3D836D46FA2C8 /* Pods-CarDryverTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarDryverTests-Info.plist"; sourceTree = "<group>"; };
+		4E989806ED8C6A85B15685F5BCE710E8 /* Pods-CarDryver */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CarDryver"; path = Pods_CarDryver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D7BAE9C213E2250BC103366065BEAB8 /* Pods-CarDryverTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CarDryverTests-umbrella.h"; sourceTree = "<group>"; };
+		8293DBC1130C3C8E38351099000D53D1 /* Pods-CarDryverTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CarDryverTests-dummy.m"; sourceTree = "<group>"; };
+		83056F17CCBE55EA085ECF47DB9E403C /* Pods-CarDryver-CarDryverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarDryver-CarDryverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C2B2707016D770C6CA86A2F2F3FEAB4 /* Pods-CarDryverTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CarDryverTests.modulemap"; sourceTree = "<group>"; };
+		92D87F7B764DFAFDFE17D98A61792C01 /* Pods-CarDryver-CarDryverUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CarDryver-CarDryverUITests.modulemap"; sourceTree = "<group>"; };
+		9428DCAEA29E70E5BBCB3047CAB8EE46 /* Pods-CarDryver-CarDryverUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarDryver-CarDryverUITests-Info.plist"; sourceTree = "<group>"; };
+		953C3F93D61B739AC03003734D170EC0 /* Pods-CarDryver-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarDryver-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3389FD8F55ECB4D047E85C40112230D /* Pods-CarDryver-CarDryverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarDryver-CarDryverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A9C6ED48ADE0FE1D13728A3643A3332F /* Pods-CarDryverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarDryverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B30FDBF1639489374AC08B2DC4FCF51A /* Pods-CarDryverTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CarDryverTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B3AB072AAFFD63E970B772E15F3BC2DD /* Pods-CarDryver-CarDryverUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CarDryver-CarDryverUITests-dummy.m"; sourceTree = "<group>"; };
+		B43EBD3AAE28E7D74099FAB2E8DA226C /* Pods-CarDryver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CarDryver.modulemap"; sourceTree = "<group>"; };
+		B62D8FFF35DA492AE8A3B155396609CB /* Pods-CarDryver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarDryver.debug.xcconfig"; sourceTree = "<group>"; };
+		BE92B951569B01C34EB19D06776FC297 /* Pods-CarDryverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarDryverTests.release.xcconfig"; sourceTree = "<group>"; };
+		C22B4D0C27762E9F91482959FA08C516 /* Pods-CarDryverTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CarDryverTests"; path = Pods_CarDryverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9ECF1D623CB9F0B47FA483443F3CEEB /* Pods-CarDryver-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarDryver-Info.plist"; sourceTree = "<group>"; };
+		CEFF425281D768AD1A45F3D62520A5B7 /* Pods-CarDryver-CarDryverUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CarDryver-CarDryverUITests"; path = Pods_CarDryver_CarDryverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC161B64A48C22F6613AA9068045FECA /* Pods-CarDryver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarDryver.release.xcconfig"; sourceTree = "<group>"; };
+		DCCFF09AF41BE898BE2D9FAB8AB6A668 /* Pods-CarDryver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CarDryver-umbrella.h"; sourceTree = "<group>"; };
+		DDB91F4FF4121716CB10DE0829DF02D7 /* Pods-CarDryver-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CarDryver-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ED60A4FB6F82C5E321BC2D9515993C9A /* Pods-CarDryver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CarDryver-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		601342CD206D3F60A2D571C913A9C242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6B1BED8DD71FD1FF3B65DA1D6D583B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7040376A0D2736A3942C1EE604D4D1AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C85047B7CD27ADDB120034F17F6DEC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98B3F8C773D63B3F82CEA19EC3F605F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1E01E7936A3C230C5EF2426295DFD2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35E32EF24A38DAFB8CF3E12336BA2EF1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F64437AF856F39E2469BEE2F474B9B1 /* Pods-CarDryver */,
+				C203694AD77BAB7E8CAB512DCD4E08E2 /* Pods-CarDryver-CarDryverUITests */,
+				527A719EE47225459A3FFDCEFD376748 /* Pods-CarDryverTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4BF9C0552E9920E768B17ECDBAA58037 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E989806ED8C6A85B15685F5BCE710E8 /* Pods-CarDryver */,
+				CEFF425281D768AD1A45F3D62520A5B7 /* Pods-CarDryver-CarDryverUITests */,
+				C22B4D0C27762E9F91482959FA08C516 /* Pods-CarDryverTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		527A719EE47225459A3FFDCEFD376748 /* Pods-CarDryverTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C2B2707016D770C6CA86A2F2F3FEAB4 /* Pods-CarDryverTests.modulemap */,
+				B30FDBF1639489374AC08B2DC4FCF51A /* Pods-CarDryverTests-acknowledgements.markdown */,
+				2B62D6E128E60C41B6C7EB6639348289 /* Pods-CarDryverTests-acknowledgements.plist */,
+				8293DBC1130C3C8E38351099000D53D1 /* Pods-CarDryverTests-dummy.m */,
+				4A172A4AC00FB504E4D3D836D46FA2C8 /* Pods-CarDryverTests-Info.plist */,
+				7D7BAE9C213E2250BC103366065BEAB8 /* Pods-CarDryverTests-umbrella.h */,
+				A9C6ED48ADE0FE1D13728A3643A3332F /* Pods-CarDryverTests.debug.xcconfig */,
+				BE92B951569B01C34EB19D06776FC297 /* Pods-CarDryverTests.release.xcconfig */,
+			);
+			name = "Pods-CarDryverTests";
+			path = "Target Support Files/Pods-CarDryverTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8F64437AF856F39E2469BEE2F474B9B1 /* Pods-CarDryver */ = {
+			isa = PBXGroup;
+			children = (
+				B43EBD3AAE28E7D74099FAB2E8DA226C /* Pods-CarDryver.modulemap */,
+				DDB91F4FF4121716CB10DE0829DF02D7 /* Pods-CarDryver-acknowledgements.markdown */,
+				953C3F93D61B739AC03003734D170EC0 /* Pods-CarDryver-acknowledgements.plist */,
+				ED60A4FB6F82C5E321BC2D9515993C9A /* Pods-CarDryver-dummy.m */,
+				C9ECF1D623CB9F0B47FA483443F3CEEB /* Pods-CarDryver-Info.plist */,
+				DCCFF09AF41BE898BE2D9FAB8AB6A668 /* Pods-CarDryver-umbrella.h */,
+				B62D8FFF35DA492AE8A3B155396609CB /* Pods-CarDryver.debug.xcconfig */,
+				DC161B64A48C22F6613AA9068045FECA /* Pods-CarDryver.release.xcconfig */,
+			);
+			name = "Pods-CarDryver";
+			path = "Target Support Files/Pods-CarDryver";
+			sourceTree = "<group>";
+		};
+		C203694AD77BAB7E8CAB512DCD4E08E2 /* Pods-CarDryver-CarDryverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92D87F7B764DFAFDFE17D98A61792C01 /* Pods-CarDryver-CarDryverUITests.modulemap */,
+				0D5962C0C9A3A2451D006C68DEEA8520 /* Pods-CarDryver-CarDryverUITests-acknowledgements.markdown */,
+				42984E89575A8DD9F4459FCE6CB54FB1 /* Pods-CarDryver-CarDryverUITests-acknowledgements.plist */,
+				B3AB072AAFFD63E970B772E15F3BC2DD /* Pods-CarDryver-CarDryverUITests-dummy.m */,
+				9428DCAEA29E70E5BBCB3047CAB8EE46 /* Pods-CarDryver-CarDryverUITests-Info.plist */,
+				4450543ED2EC78AB54F8C1F5BB02DE00 /* Pods-CarDryver-CarDryverUITests-umbrella.h */,
+				83056F17CCBE55EA085ECF47DB9E403C /* Pods-CarDryver-CarDryverUITests.debug.xcconfig */,
+				A3389FD8F55ECB4D047E85C40112230D /* Pods-CarDryver-CarDryverUITests.release.xcconfig */,
+			);
+			name = "Pods-CarDryver-CarDryverUITests";
+			path = "Target Support Files/Pods-CarDryver-CarDryverUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4BF9C0552E9920E768B17ECDBAA58037 /* Products */,
+				35E32EF24A38DAFB8CF3E12336BA2EF1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0EDE0A6FDE6F180531C499AB06BE0AB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722FE21FF318835935D3959FF6504325 /* Pods-CarDryver-CarDryverUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807465C8DE0B003A0080E93C8675CE5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8070D651797A1ED449912BDE64F8DDE /* Pods-CarDryverTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F210B7A8D0BA81D43A3CA764DACC62DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1E4882C5B738410A07D665AB707CDB /* Pods-CarDryver-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		795B94B9362EBF9A495DEB456635EB73 /* Pods-CarDryver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D7FAF5CB8015D99484811DAF4202A9D /* Build configuration list for PBXNativeTarget "Pods-CarDryver" */;
+			buildPhases = (
+				F210B7A8D0BA81D43A3CA764DACC62DE /* Headers */,
+				600CB2F99490F4BB7114A4599AB1B764 /* Sources */,
+				7040376A0D2736A3942C1EE604D4D1AF /* Frameworks */,
+				BB5841D3E3794A8F74EA4537343B8FB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CarDryver";
+			productName = Pods_CarDryver;
+			productReference = 4E989806ED8C6A85B15685F5BCE710E8 /* Pods-CarDryver */;
+			productType = "com.apple.product-type.framework";
+		};
+		B791E18C8B00F4075FB15BE209A7542C /* Pods-CarDryver-CarDryverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DEC32F1A1522943D9FAF26026955CE /* Build configuration list for PBXNativeTarget "Pods-CarDryver-CarDryverUITests" */;
+			buildPhases = (
+				0EDE0A6FDE6F180531C499AB06BE0AB2 /* Headers */,
+				860C239EC22E83C7F2783EC10249EB61 /* Sources */,
+				601342CD206D3F60A2D571C913A9C242 /* Frameworks */,
+				476BAB3A36D5F19513940601D8916DBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CarDryver-CarDryverUITests";
+			productName = Pods_CarDryver_CarDryverUITests;
+			productReference = CEFF425281D768AD1A45F3D62520A5B7 /* Pods-CarDryver-CarDryverUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF6033BBE79B3FB2A03ACA4086FA7251 /* Pods-CarDryverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE787FBF7310891346F1C37855F728D /* Build configuration list for PBXNativeTarget "Pods-CarDryverTests" */;
+			buildPhases = (
+				807465C8DE0B003A0080E93C8675CE5A /* Headers */,
+				A94342117B6D7948265046C3B342D74E /* Sources */,
+				D98B3F8C773D63B3F82CEA19EC3F605F /* Frameworks */,
+				817964510E6534F12F2B37CA4633FF5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F6FA7657FF1CDB022E40B72883DE813 /* PBXTargetDependency */,
+			);
+			name = "Pods-CarDryverTests";
+			productName = Pods_CarDryverTests;
+			productReference = C22B4D0C27762E9F91482959FA08C516 /* Pods-CarDryverTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4BF9C0552E9920E768B17ECDBAA58037 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				795B94B9362EBF9A495DEB456635EB73 /* Pods-CarDryver */,
+				B791E18C8B00F4075FB15BE209A7542C /* Pods-CarDryver-CarDryverUITests */,
+				BF6033BBE79B3FB2A03ACA4086FA7251 /* Pods-CarDryverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		476BAB3A36D5F19513940601D8916DBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		817964510E6534F12F2B37CA4633FF5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5841D3E3794A8F74EA4537343B8FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		600CB2F99490F4BB7114A4599AB1B764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB23F0CDC79A71B253279CDFD0CEFAE /* Pods-CarDryver-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860C239EC22E83C7F2783EC10249EB61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F35CDA12EF8C0CE2D894F1455A4083 /* Pods-CarDryver-CarDryverUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94342117B6D7948265046C3B342D74E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA9504FA20377591DE69FD87F7B7B51 /* Pods-CarDryverTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F6FA7657FF1CDB022E40B72883DE813 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CarDryver";
+			target = 795B94B9362EBF9A495DEB456635EB73 /* Pods-CarDryver */;
+			targetProxy = 681AFAAE3AB7861580C5C34C0A7BAB8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		129E599C7ABF2F04F87F1BFE0E8D67CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9C6ED48ADE0FE1D13728A3643A3332F /* Pods-CarDryverTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarDryverTests/Pods-CarDryverTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarDryverTests/Pods-CarDryverTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2F5637286C5C27468C6C83696EE29A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83056F17CCBE55EA085ECF47DB9E403C /* Pods-CarDryver-CarDryverUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarDryver-CarDryverUITests/Pods-CarDryver-CarDryverUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarDryver-CarDryverUITests/Pods-CarDryver-CarDryverUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		453AF36A41E23F9212463150481C5982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B62D8FFF35DA492AE8A3B155396609CB /* Pods-CarDryver.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarDryver/Pods-CarDryver-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarDryver/Pods-CarDryver.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5F9761978EE6C7BC2B5AFAA40A282941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE92B951569B01C34EB19D06776FC297 /* Pods-CarDryverTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarDryverTests/Pods-CarDryverTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarDryverTests/Pods-CarDryverTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		86C346FB09567437AC26A46B669461A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC161B64A48C22F6613AA9068045FECA /* Pods-CarDryver.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarDryver/Pods-CarDryver-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarDryver/Pods-CarDryver.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EB01175EAECDE3474A3A1A291B7BE6FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3389FD8F55ECB4D047E85C40112230D /* Pods-CarDryver-CarDryverUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarDryver-CarDryverUITests/Pods-CarDryver-CarDryverUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarDryver-CarDryverUITests/Pods-CarDryver-CarDryverUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D7FAF5CB8015D99484811DAF4202A9D /* Build configuration list for PBXNativeTarget "Pods-CarDryver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453AF36A41E23F9212463150481C5982 /* Debug */,
+				86C346FB09567437AC26A46B669461A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DEC32F1A1522943D9FAF26026955CE /* Build configuration list for PBXNativeTarget "Pods-CarDryver-CarDryverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5637286C5C27468C6C83696EE29A6E /* Debug */,
+				EB01175EAECDE3474A3A1A291B7BE6FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE787FBF7310891346F1C37855F728D /* Build configuration list for PBXNativeTarget "Pods-CarDryverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				129E599C7ABF2F04F87F1BFE0E8D67CE /* Debug */,
+				5F9761978EE6C7BC2B5AFAA40A282941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
