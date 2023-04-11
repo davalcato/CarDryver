@@ -80,14 +80,19 @@ struct SignInScreenView: View {
                 Spacer()
                 Divider()
                 Spacer()
-                Text("You are completely safe.")
                 
-                NavigationLink(destination: TermsAndConditionsView()) {
-                    Text("Read our Terms & Conditions.")
-                        .bold()
-                        .foregroundColor(Color("PrimaryColor"))
-                        .font(.system(size: 13))
+                VStack {
+                    Text("You are completely safe.")
+                    
+                    NavigationLink(destination: TermsAndConditionsView()) {
+                        Text("Read our Terms & Conditions.")
+                            .bold()
+                            .foregroundColor(Color("PrimaryColor"))
+                            .font(.system(size: 13))
+                    }
+                    .navigationBarBackButtonHidden(true)
                 }
+                .padding(.bottom)
                 
                 Spacer()
                 
@@ -100,6 +105,7 @@ struct SignInScreenView: View {
             }
         }))
     }
+}
 
 struct TermsAndConditionsView: View {
     var body: some View {
@@ -136,4 +142,4 @@ struct SocalLoginButton: View {
         .shadow(color: Color.black.opacity(0.08), radius: 60, x: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/, y: 16)
     }
 }
-}
+
