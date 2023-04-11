@@ -18,25 +18,19 @@ struct WelcomeScreenView: View {
                     Spacer()
                     NavigationLink(destination: SignInScreenView()) {
                         PrimaryButton(title: "Get Started")
-                            .navigationBarBackButtonHidden(true)
-                            .navigationBarHidden(true)
-                            .navigationBarTitle("", displayMode: .inline)
                     }
-                    NavigationLink(
-                        destination: SignInScreenView().navigationBarHidden(true),
-                        label: {
-                            Text("Sign In")
-                                .font(.title3)
-                                .fontWeight(.bold)
-                                .foregroundColor(Color("PrimaryColor"))
-                                .padding()
-                                .frame(maxWidth: .infinity)
-                                .background(Color.white)
-                                .cornerRadius(50.0)
-                                .shadow(color: Color.black.opacity(0.08), radius: 60, x: 0.0, y: 16)
-                                .padding(.vertical)
-                        })
-                        .navigationBarHidden(true)
+                    NavigationLink(destination: SignInScreenView()) {
+                        Text("Sign In")
+                            .font(.title3)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color("PrimaryColor"))
+                            .padding()
+                            .frame(maxWidth: .infinity)
+                            .background(Color.white)
+                            .cornerRadius(50.0)
+                            .shadow(color: Color.black.opacity(0.08), radius: 60, x: 0.0, y: 16)
+                            .padding(.vertical)
+                    }
                     Spacer()
                 }
                 .navigationBarTitle("", displayMode: .inline)
